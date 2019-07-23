@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+nav a:hover{
+    color: aquamarine;
+}
+
+.banner{
+    height: 400px;
+    background-image: url("../static/img/fundo.jpg");
+    background-size: cover;
+}
+
+.banner h1, h4{
+    color: #f542d7;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 50pt;
+    margin: 0;
+    padding:40px;   
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
+}
+
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input{
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+.botao{
+    background-color: aquamarine;
+    color: black;
+}
+
+.botao:hover{
+    background-color: #f542d7;
+    color: azure;
+    font-size: 30px;
+}
+
+::placeholder{
+    color: blue;
+    font-size: 10pt;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(20, 19, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+footer div img{
+    width: 32px;
+    height: 32px;
+}
